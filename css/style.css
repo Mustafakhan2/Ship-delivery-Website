@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+    border-top:4px solid red;
+}
+.navbar ul{
+    display: flex;
+    gap: 3rem;
+    position: relative;
+    left: 10rem;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+.navbar ul li:hover{
+    color: red;
+}
+
+.navbar #logo{
+  bottom: 10px;
+    background-color: red;
+    height: 70px;
+    width: 15rem;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+  .navbar h1{
+    font-size: 2rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+/* for carosel start */
+
+.carousel-content {
+  position: absolute;
+  bottom: 20rem;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content h1{
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.carousel-content h2{
+  color: aliceblue;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.carousel-content p{
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.carousel-content #button1{
+  background-color: blue;
+  font-size: 25px;
+  color: white;
+  width: 150px;
+  font-weight: bold;
+}
+.carousel-content #button2{
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  width: 150px;
+  font-weight: bold;
+}
+
+/* for carosel ends */
+
+  /* imagebox css start */
+  .imgandtext{
+    float: left;
+  }
+  .aboutusheading h2{
+    margin-left: 35rem;
+    color: rgb(77, 176, 209);
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .aboutusheading h3{
+    margin-left: 35rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 50px
+    
+  }
+  .aboutusheading p{
+    margin-left: 35rem;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    font-size: 20px
+  }
+
+  .aboutusheading #leftheading{
+    color: black;
+    padding-top: 100px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .aboutusheading #leftparagraph{
+    display: block;
+    width: 200px;
+    height: auto;
+    position: relative;
+    bottom: 50px;
+    
+  }
+
+  .aboutusheading #rightheading{
+    float: right;
+    position: relative;
+    bottom: 240px;
+    right: 300px;
+    color: black;
+    
+  }
+
+  .aboutusheading #rightparagraph{
+    float: right;
+    position: relative;
+    width: 200px;
+    height: auto;
+    bottom: 250px;
+    right: 260px;
+  }
+
+  .aboutusheading #button{
+    display: block;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 150px;
+    left: 1250px;
+    height: 80px;
+    font-weight: bold;
+  }
+
+
+  /* imagebox css end */
+
+  /* css for left side written things under box picture starts */
+
+  .leftsidewrittenthings{
+    margin-top: 4rem;
+    width: 45rem;
+  }
+  .leftsidewrittenthings #leftsidesomefacts{
+    color: rgb(77, 176, 209);
+    font-weight: bold;
+    
+  }
+  .leftsidewrittenthings #leftsideplacetomanage{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .leftsidewrittenthings #leftsidelorem{
+    padding-top: 3rem;
+    font-size: 20px;
+    
+  }
+
+  .leftsidewrittenthings #leftsidecallfor{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+  }
+
+  .leftsidewrittenthings #leftsidenum{
+    color: red;
+    font-size: 30px;
+    padding-left: 50px;
+    
+  }
+
+    /* css for left side written things under box picture ends */
+
+
+    /* css for Services */
+    .services{
+      margin-top: 100px;
+    }
+
+  .services h1 {
+    color: rgb(77, 176, 209);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .services h2 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    
+    font-weight: bold;
+  }
+  
+  .cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+
+  .cards2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+    /* css for rightimagetextleft */
+
+
+    .rightimagetextleft{
+      float: right;
+      margin-top: 150px;
+    }
+
+    .textleftrightimage h1{
+      color: rgb(77, 176, 209);
+      margin: 50px;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 150px;
+
+    }
+
+
+    .textleftrightimage h2{
+      color: black;
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 50px;
+    }
+    .textleftrightimage h3{
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 80px;
+      margin-top: 50px;
+    }
+
+    .textleftrightimage p{
+      margin-left: 80px;
+      font-size: 20px;
+    }
+
+    .textleftrightimage h4{
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 80px;
+      margin-top: 50px;
+    }
+
+    .textleftrightimage h5{
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 80px;
+      margin-top: 50px;
+    }
+
+    /* Css for Form  */
+
+    .formleft{
+      float: left;
+      margin-left: 60px;
+      margin-top: 200px;
+      margin-bottom: 100px;
+    }
+    .formleft h1{
+      color: rgb(77, 176, 209);
+      font-weight: bold;
+      font-size: 25px;
+    
+    }
+    .formleft h2{
+      color: black;
+      font-weight: bold;
+      font-size: 50px;
+      padding-top: 10px;
+
+    }
+    .formleft p{
+      width: 500px;
+    }
+    .formleft h3{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .formleft h4{
+      font-size: 30px;
+      color: red;
+    }
+
+    form{
+      width: 500px;
+      float: right;
+      margin-top: 200px;
+      margin-right: 50px;
+      border: 3rem solid bisque;
+      margin-bottom: 100px;
+
+    }
+   form .btn{
+    width: 20rem;
+    margin-left: 40px;
+   }
